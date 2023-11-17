@@ -13,7 +13,7 @@ namespace Domain.Entitities;
 public class Brand : Entity<Guid>
 {
     public string Name { get; set; }
-    public Guid Id { get; set; } 
+   
 
     public Brand()
     {
