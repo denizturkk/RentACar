@@ -18,6 +18,8 @@ public class ModelConfiguration : IEntityTypeConfiguration<Model>
         builder.Property(b => b.FuelId).HasColumnName("FuelId").IsRequired();
         builder.Property(b => b.TransmissionId).HasColumnName("TransmissionId").IsRequired();
         builder.Property(b => b.DailyPrice).HasColumnName("DailyPrice").IsRequired();
+        builder.Property(b => b.DailyPrice).HasColumnType("decimal(18,2)");
+
         builder.Property(b => b.ImageUrl).HasColumnName("ImageUrl").IsRequired();
 
 
