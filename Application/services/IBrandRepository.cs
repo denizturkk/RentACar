@@ -1,6 +1,6 @@
 ﻿using Core.Persistence.Repositories;
 using Core.Persistence.Repository;
-using Domain.Entitities;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

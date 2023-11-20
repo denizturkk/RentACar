@@ -1,16 +1,16 @@
 ﻿using Core.Persistence.Repository;
 
-namespace Domain.Entitities;
+namespace Domain.Entities;
 
 public class Transmission : Entity<Guid>
 {
     public string Name { get; set; }
 
-    public virtual ICollection<Transmission> Transmissions { get; set; }
+    public virtual ICollection<Model> Models { get; set; }
 
     public Transmission()
     {
-        Transmissions = new HashSet<Transmission>();
+        Models = new HashSet<Model>();
     }
     public Transmission(Guid id, string name)
     {

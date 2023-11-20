@@ -8,7 +8,7 @@ using Core.Persistence.Repository;
 
 
 
-namespace Domain.Entitities;
+namespace Domain.Entities;
 
 public class Brand : Entity<Guid>
 {

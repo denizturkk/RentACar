@@ -3,7 +3,7 @@ using AutoMapper;
 using Core.Application.Request;
 using Core.Application.Responses;
 using Core.Persistence.Paging;
-using Domain.Entitities;
+using Domain.Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Domain.Entitities;
+using Domain.Entities;
 using AutoMapper;
 using Core.Persistence.Paging;
 using Core.Application.Responses;

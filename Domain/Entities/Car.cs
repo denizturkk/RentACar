@@ -1,7 +1,7 @@
 ﻿using Core.Persistence.Repository;
 using Domain.Enums;
 
-namespace Domain.Entitities;
+namespace Domain.Entities;
 
 public class Car : Entity<Guid>
 {

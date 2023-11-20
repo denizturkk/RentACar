@@ -1,6 +1,6 @@
 ﻿using Application.services;
 using AutoMapper;
-using Domain.Entitities;
+using Domain.Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;

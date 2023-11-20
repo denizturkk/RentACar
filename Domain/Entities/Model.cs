@@ -6,7 +6,7 @@ using System.Runtime;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Entitities;
+namespace Domain.Entities;
 
 public class Model:Entity<Guid>
 {

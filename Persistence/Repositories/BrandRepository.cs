@@ -1,6 +1,6 @@
 ﻿using Application.services;
 using Core.Persistence.Repositories;
-using Domain.Entitities;
+using Domain.Entities;
 using Persistence.Contexts;
 using System;
 using System.Collections.Generic;
@@ -16,3 +16,4 @@ public class BrandRepository : EfRepositoryBase<Brand, Guid, BaseDbContext>, IBr
     {
     }
 }
+

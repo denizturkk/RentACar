@@ -1,6 +1,6 @@
 ﻿using Core.Persistence.Repository;
 
-namespace Domain.Entitities;
+namespace Domain.Entities;
 
 public class Fuel : Entity<Guid>
 {
